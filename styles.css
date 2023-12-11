@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'helveticaneue';
+    src: url('helveticaneue.ttf') format('ttf');
+}
 header {
     background-color: #0A22F4;
     color: #ffffff;
