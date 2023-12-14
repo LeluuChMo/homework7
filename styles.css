@@ -1,11 +1,34 @@
-@font-face {
-    font-family: 'helveticaneue';
-    src: url('helveticaneue.ttf') format('ttf');
-}
 header {
     background-color: #0A22F4;
     color: #ffffff;
     width: 1920px;
     height: 308px;
     padding: 70px 0px 0px 240px;
+    position: relative;
 }
+h1 {
+    width: 184px;
+    height: 38px;
+}
+.circle {
+    display: inline-block;
+    margin-left: 1185px;
+}
+.firstcircle {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.circles {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    opacity: 0.3;
+}
+
