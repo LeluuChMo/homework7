@@ -31,4 +31,59 @@ h1 {
     margin-right: 20px;
     opacity: 0.3;
 }
+.image {
+    position: relative;
+    width: 463px;
+    height: 420px;
+    border-radius: 15px;
+}
+.image1 {
+    position: absolute;
+    left: 240px;
+    top: 198px;
+}
+.image2 {
+    position: absolute;
+    left: 728px;
+    top: 130px;
+}
+.image3 {
+    position: absolute;
+    left: 1216px;
+    top: 198px;
+}
+.view {
+    position: absolute;
+    background-color: #ffffff;
+    width: 443px;
+    height: 125px;
+    border-radius: 12px;
+    left: 10px;
+    right: 10px;
+    top: 128px;
+    bottom: 10px;
+    display: inline-block;
+}
+.image-view {
+    color: #171717;
+    padding: 30px 74px 30px 30px;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.middle-image {
+    position: absolute;
+    background-color: #ffffff;
+    width: 443px;
+    height: 125px;
+    border-radius: 12px;
+    left: 10px;
+    right: 10px;
+    top: 285px;
+    bottom: 10px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
+}
